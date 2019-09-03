@@ -4,7 +4,20 @@
 // };
 
 // But instead we're going to implement it from scratch:
-var getElementsByClassName = function(className
-) {
+var getElementsByClassName = function(className, doc) {
   // your code here
+
+  var returnArray = [];
+  if (!doc) {
+    var doc = [...document.body];
+  }
+
+  for (var x = 0; x < doc.length; x++) {
+    console.log(doc[x]);
+
+
+  }
+
+
+  // if (className === )
 };
